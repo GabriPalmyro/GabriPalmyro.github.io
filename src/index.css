@@ -57,8 +57,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
-    height: 100vh;
+    margin-top: 3rem;
 }
 
 section > h2, section > h5 {
@@ -95,7 +94,7 @@ a:hover {
     transition: var(--transition);
 }
 
-btn:hover {
+.btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;

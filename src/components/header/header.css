@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 35vh;
     padding-top: 5rem;
     overflow: hidden;
 }
@@ -41,12 +41,11 @@ header {
 /* ======== IMAGE ME ======== */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 29.5rem;
     position: absolute;
     left: calc(50% - 12rem);
-    margin-top: 4rem;
+
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1rem 1.5rem 1.5rem;
@@ -63,22 +62,46 @@ header {
     font-size: 0.9rem;
 }
 
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
 /* ============ MEDIA QUERIES (MD DEV) ============ */
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 70vh;
     }
+
 }
 
 /* ============ MEDIA QUERIES (SM DEV) ============ */
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 35vh;
     }
 
     .header__socials, .scroll__down {
-        height: 100vh;
+        height: 35vh;
     }
 }
