@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 
-import TREINOFACIL from '../../assets/treino_facil.jpg';
-import CHESSGAME from '../../assets/chessgame.jpeg';
-import QCUPWEBSITE from '../../assets/qcupwebsite.png';
-import NETFLIXCLONE from '../../assets/netflixclone.gif';
-import SEMAFORO from '../../assets/semaforo.png';
+import TREINOFACIL from '../../../assets/treino_facil.jpg';
+import CHESSGAME from '../../../assets/chessgame.jpeg';
+import QCUPWEBSITE from '../../../assets/qcupwebsite.png';
+import NETFLIXCLONE from '../../../assets/netflixclone.gif';
+import SEMAFORO from '../../../assets/semaforo.png';
 
 const Portfolio = () => {
   return (
