@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.689677bd.css",
-    "main.js": "/my-portfolio/static/js/main.5f7380f0.js",
+    "main.js": "/my-portfolio/static/js/main.7b935a0b.js",
     "static/media/netflixclone.gif": "/my-portfolio/static/media/netflixclone.09579216a234d63b2ef3.gif",
     "static/media/cv.pdf": "/my-portfolio/static/media/cv.02bb93bf31e6d9344fe5.pdf",
     "static/media/treino_facil.jpg": "/my-portfolio/static/media/treino_facil.abd56774104c95bad486.jpg",
+    "static/media/landingpage_2.png": "/my-portfolio/static/media/landingpage_2.d8dae2065224e6e4a4ea.png",
     "static/media/qcupwebsite.png": "/my-portfolio/static/media/qcupwebsite.58b8d775e75790a1efa0.png",
     "static/media/chessgame.jpeg": "/my-portfolio/static/media/chessgame.8cb0eb792c4bdea5aa6f.jpeg",
     "static/media/avatar_1.jpg": "/my-portfolio/static/media/avatar_1.09d77997b9aa9419181d.jpg",
+    "static/media/avatar_2.jpg": "/my-portfolio/static/media/avatar_2.26aed9efd1296f636e69.jpg",
     "static/media/landingpage.png": "/my-portfolio/static/media/landingpage.dc834529450707df228c.png",
     "static/media/semaforo.png": "/my-portfolio/static/media/semaforo.b87b9d4d02b8cb7137ff.png",
     "index.html": "/my-portfolio/index.html",
     "main.689677bd.css.map": "/my-portfolio/static/css/main.689677bd.css.map",
-    "main.5f7380f0.js.map": "/my-portfolio/static/js/main.5f7380f0.js.map"
+    "main.7b935a0b.js.map": "/my-portfolio/static/js/main.7b935a0b.js.map"
   },
   "entrypoints": [
     "static/css/main.689677bd.css",
-    "static/js/main.5f7380f0.js"
+    "static/js/main.7b935a0b.js"
   ]
 }
