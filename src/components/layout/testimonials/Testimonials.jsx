@@ -1,6 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import AVTR1 from '../../../assets/avatar_1.jpg'
+import AVTR2 from '../../../assets/avatar_2.jpg'
 
 // import required modules
 import { Pagination } from "swiper";
@@ -18,6 +19,12 @@ const data = [
     name: 'Isadora Lopes',
     date: '24 de junho de 2022',
     review: 'Ótimo trabalho em equipe. Muito profissional e sempre ensinando e aprendendo junto com o time !'
+  },
+  {
+    avatar: AVTR2,
+    name: 'João Vitor Ribeiro',
+    date: '16 de agosto de 2022',
+    review: 'Estudei com o Gabriel e ele é um excelente aluno, muito dedicado e sempre realizou tarefas excpcionais. Qualquer empresa ganharia muito com ele.'
   },
 ]
 

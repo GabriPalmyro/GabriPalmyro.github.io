@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from '../components/layout/Layout'
-import Portfolio from '../components/ppre8/Portfolio'
+import ProjetoIntegrador from '../components/projeto_integrador/ProjetoIntegrador'
 
 function AppRoutes() {
     return (
@@ -9,7 +9,7 @@ function AppRoutes() {
             <Routes>
                 <Route path="/" element={<Layout />} />
                 <Route path="/my-portfolio" element={<Layout />} />
-                <Route path="/ppre8" element={<Portfolio />} />
+                <Route path="/projeto-integrador" element={<ProjetoIntegrador />} />
             </Routes>
         </BrowserRouter>
     )
