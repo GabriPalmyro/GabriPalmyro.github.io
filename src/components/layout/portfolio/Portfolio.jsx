@@ -1,11 +1,12 @@
-import React from 'react'
-import './portfolio.css'
+import React from 'react';
+import './portfolio.css';
 
-import TREINOFACIL from '../../../assets/treino_facil.jpg';
 import CHESSGAME from '../../../assets/chessgame.jpeg';
-import QCUPWEBSITE from '../../../assets/qcupwebsite.png';
+import EXPANSAO from '../../../assets/expansao.png';
+import FIEMG from '../../../assets/fiemg.png';
 import NETFLIXCLONE from '../../../assets/netflixclone.gif';
-import SEMAFORO from '../../../assets/semaforo.png';
+import QCUPWEBSITE from '../../../assets/qcupwebsite.png';
+import TREINOFACIL from '../../../assets/treino_facil.jpg';
 
 const Portfolio = () => {
   return (
@@ -20,7 +21,7 @@ const Portfolio = () => {
           <h3>Treino Fácil App</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/GabriPalmyro/Treino_Facil" className='btn'>Github</a>
-            <a href="https://play.google.com/store/apps/details?id=br.com.palmyro.treino_facil" className='btn btn-primary' target='_blank'>Download</a>
+            <a href="https://play.google.com/store/apps/details?id=br.com.palmyro.treino_facil" className='btn btn-primary' target='_blank' rel="noreferrer">Download</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -30,7 +31,7 @@ const Portfolio = () => {
           <h3>QCUP Website</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/GabriPalmyro/QcupWebsite_React" className='btn'>Github</a>
-            <a href="https://qcup2021.web.app/" className='btn btn-primary' target='_blank'>Acessar</a>
+            <a href="https://qcup2021.web.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Acessar</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -43,7 +44,7 @@ const Portfolio = () => {
             {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
           </div>
         </article>
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={SEMAFORO} alt="treino-facil" />
           </div>
@@ -51,8 +52,8 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/GabriPalmyro/SemaforoEsp_App" className='btn'>Github</a>
             {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
-          </div>
-        </article>
+        {/* </div> */}
+        {/* </article> */}
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={NETFLIXCLONE} alt="treino-facil" />
@@ -60,6 +61,26 @@ const Portfolio = () => {
           <h3>Netflix Clone App</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/GabriPalmyro/netflix_clone_api_rest" className='btn'>Github</a>
+            {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={EXPANSAO} alt="expansao" />
+          </div>
+          <h3>Plataforma de e-commerce expansão</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://expansao.vercel.app/" className='btn'>Acessar Site</a>
+            {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={FIEMG} alt="fiemg" />
+          </div>
+          <h3>Plataforma de questionários SESI</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://webqv.com.br/mapa-bem-estar/" className='btn'>Acessar Site</a>
             {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
           </div>
         </article>

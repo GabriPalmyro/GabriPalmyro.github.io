@@ -1,6 +1,6 @@
 import React from 'react'
-import './services.css'
 import { BiCheck } from 'react-icons/bi'
+import './services.css'
 
 const Services = () => {
   return (
@@ -14,6 +14,14 @@ const Services = () => {
             <h3>Desenvolvimento Web</h3>
           </div>
           <ul className='services__list'>
+            <li>
+              <BiCheck className='services__list-icon' />
+              <p>Criação de sistemas de e-commerce</p>
+            </li>
+            <li>
+              <BiCheck className='services__list-icon' />
+              <p>Criação de landing pages</p>
+            </li>
             <li>
               <BiCheck className='services__list-icon' />
               <p>Estilização e designs responsivos</p>
@@ -36,7 +44,7 @@ const Services = () => {
           <ul className='services__list'>
             <li>
               <BiCheck className='services__list-icon' />
-              <p>Mais de 3 anos de prática com desenvolvimento mobile</p>
+              <p>Mais de 4 anos de prática com desenvolvimento Mobile</p>
             </li>
             <li>
               <BiCheck className='services__list-icon' />
@@ -48,7 +56,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='services__list-icon' />
-              <p>Uso de gerenciadores como: Provider, MobX</p>
+              <p>Uso de gerenciadores como: Provider, BLoC</p>
             </li>
           </ul>
         </article>
