@@ -10,37 +10,37 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Desenvolvimento Frontend</h3>
+          <h3>Desenvolvimento Frontend & Cloud</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div><h4>Flutter</h4>
-                <small className='text-light'>Avançado</small></div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div><h4>HTML</h4>
-                <small className='text-light'>Avançado</small></div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div><h4>CSS</h4>
-                <small className='text-light'>Intermediário</small></div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div><h4>Bootstrap</h4>
-                <small className='text-light'>Intermediário</small></div>
+                <small className='text-light'>Expert</small></div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div><h4>React</h4>
-                <small className='text-light'>Intermediário</small></div>
+                <small className='text-light'>Avançado</small></div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div><h4>Next.js</h4>
-                <small className='text-light'>Intermediário</small></div>
+                <small className='text-light'>Avançado</small></div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div><h4>AWS - RDS</h4>
+                <small className='text-light'>Avançado</small></div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div><h4>AWS - EC2</h4>
+                <small className='text-light'>Avançado</small></div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div><h4>AWS - S3</h4>
+                <small className='text-light'>Avançado</small></div>
             </article>
           </div>
         </div>
@@ -48,6 +48,11 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Desenvolvimento Backend</h3>
           <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div> <h4>Nest.js</h4>
+                <small className='text-light'>Avançado</small></div>
+            </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div><h4>Firebase</h4>
@@ -62,11 +67,6 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div><h4>PHP</h4>
                 <small className='text-light'>Intermediário</small></div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div> <h4>Node JS</h4>
-                <small className='text-light'>Iniciante</small></div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />

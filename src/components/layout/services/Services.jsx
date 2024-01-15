@@ -56,7 +56,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='services__list-icon' />
-              <p>Uso de gerenciadores como: Provider, BLoC</p>
+              <p>Uso de gerenciadores como: Provider, BLoC, GetX</p>
             </li>
           </ul>
         </article>

@@ -21,30 +21,24 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experiências</h5>
-              <small>4+ de Experiência na Área</small>
+              <small>Mais de 4 de Anos de Experiência com Desenvolvimento de Software</small>
             </article>
             <article className='about__card'>
               <FiUser className='about__icon' />
-              <h5>Clientes</h5>
-              <small>10+ Clientes Satisfeitos</small>
+              <h5>Empresas</h5>
+              <small>Conhecimento em Software Houses, Startups e Bancos Digitais</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projetos</h5>
-              <small>10+ Projetos Completos</small>
+              <small>Participação e criação em projetos que juntos, atingem grande parte da população nacional</small>
             </article>
           </div>
           <div className="about__infos">
             <p>
-              Cursando Engenharia de Computação no Instituto Federal de São Paulo, com previsão de graduação em 2023.
-              <br />
-              Entusiasta das melhores tecnologias de desenvolvimento web & mobile.
-              Apaixonado por aprender e desenvolver produtos e serviços que façam diferença na vida das pessoas.
-              <br />
-              <br />
-              Experiência de mais de 2 anos com desenvolvimento mobile, web e windows utilizando Flutter.
-              Sou criador do "Treino Fácil, aplicativo de planilhas de treino personalizadas e de controle remoto para Personal Trainer. Hoje com mais de 3500 usuário cadastrados e 150 usuários por dia.
-              Conhecimento de todo Kit Firebase e integração com apps Mobile.
+            Como Engenheiro de Software com mais de 4 anos de experiência, meu foco principal é com o framework Flutter, porém também tenho experiência de mais de um ano com desenvolvimento web com ReactJS e Next.js.
+Possuo habilidades em banco de dados relacionais e não-relacionais, bem como em controle de versões com Git.
+Tenho também conhecimento em criação de microserviços utilizando Nest.js e de algumas ferramentas AWS como: RDS, EC2 com Ubuntu, S3, Amplify com CI/CD.
             </p>
             <a href="#contact" className='btn btn-primary'>Vamos conversar?</a>
           </div>

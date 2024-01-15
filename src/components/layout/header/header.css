@@ -1,5 +1,5 @@
 header {
-    height: 35vh;
+    height: 75vh;
     padding-top: 5rem;
     overflow: hidden;
 }
@@ -41,14 +41,14 @@ header {
 /* ======== IMAGE ME ======== */
 
 .me {
-    width: 22rem;
-    height: 29.5rem;
+    width: 18rem;
+    height: 25rem;
     position: absolute;
-    left: calc(50% - 12rem);
+    left: calc(50% - 10rem);
 
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1rem 1.5rem 1.5rem;
+    padding: 4rem 1rem 1.5rem 1.5rem;
 }
 
 /* ======== SCROLL DOWN ======== */

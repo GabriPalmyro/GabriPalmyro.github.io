@@ -3,7 +3,6 @@ import './portfolio.css';
 
 import CHESSGAME from '../../../assets/chessgame.jpeg';
 import EXPANSAO from '../../../assets/expansao.png';
-import FIEMG from '../../../assets/fiemg.png';
 import NETFLIXCLONE from '../../../assets/netflixclone.gif';
 import QCUPWEBSITE from '../../../assets/qcupwebsite.png';
 import TREINOFACIL from '../../../assets/treino_facil.jpg';
@@ -71,16 +70,6 @@ const Portfolio = () => {
           <h3>Plataforma de e-commerce expansão</h3>
           <div className="portfolio__item-cta">
             <a href="https://expansao.vercel.app/" className='btn'>Acessar Site</a>
-            {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={FIEMG} alt="fiemg" />
-          </div>
-          <h3>Plataforma de questionários SESI</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://webqv.com.br/mapa-bem-estar/" className='btn'>Acessar Site</a>
             {/* <a href="https/qcup2021web.app" className='btn btn-primary' target='_blank'>Acessar</a> */}
           </div>
         </article>
